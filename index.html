@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XYZ | Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body data-theme="dark">
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;XYZ /&gt;</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section">
+    <div class="hero-content">
+      <p class="tagline">Hi there, I'm</p>
+      <h1>XYZ</h1>
+      <h2 class="sub-heading">Software Developer &amp; B.Voc Graduate</h2>
+      <p class="hero-desc">
+        2.5+ years of experience engineering responsive web applications, robust RESTful APIs, and automated tools.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Background</h3>
+          <p>
+            B.Voc in Software Development graduate (2023) currently building scalable services as a 
+            <strong>Junior Software Engineer</strong> at <strong>NovaTech Solutions</strong>. 
+            Passionate about clean architecture, responsive UX, and backend reliability.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Involvement</h3>
+          <p>
+            Active member of the <strong>IEEE Computer Society</strong> and former Student Coordinator at the 
+            <strong>Computer Society of India (CSI)</strong>, organizing bootcamps and hackathons for 250+ developers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages &amp; Frameworks</h3>
+          <div class="badge-list">
+            <span class="badge"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="badge"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="badge"><i class="fa-solid fa-code"></i> C++</span>
+            <span class="badge"><i class="fa-brands fa-react"></i> React.js</span>
+            <span class="badge"><i class="fa-brands fa-node-js"></i> Node.js</span>
+            <span class="badge"><i class="fa-solid fa-server"></i> Express</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Databases &amp; DevOps</h3>
+          <div class="badge-list">
+            <span class="badge"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+            <span class="badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="badge"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="badge"><i class="fa-brands fa-docker"></i> Docker</span>
+            <span class="badge"><i class="fa-brands fa-linux"></i> Linux CLI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <h2 class="section-title">Experience &amp; Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">July 2024 – Present</span>
+            <h3>Junior Software Engineer</h3>
+            <h4>NovaTech Solutions • Bangalore</h4>
+            <ul>
+              <li>Engineered web apps with React and Node.js, slashing page load times by 22%.</li>
+              <li>Authored secure RESTful APIs integrated with PostgreSQL for asset monitoring.</li>
+              <li>Automated CI and release scripts using Python.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">August 2023 – June 2024</span>
+            <h3>Software Development Trainee</h3>
+            <h4>Acuity Systems • Pune</h4>
+            <ul>
+              <li>Resolved 40+ bug tickets across backend Node.js endpoints.</li>
+              <li>Built accessible and responsive interface components in vanilla JavaScript.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Graduated: June 2023</span>
+            <h3>B.Voc in Software Development</h3>
+            <h4>Apex University / Institute of Technology</h4>
+            <p>GPA: 8.4 / 10.0 • Focus on Data Structures, OOP, and Relational DBMS.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <i class="fa-regular fa-folder project-folder"></i>
+            <div class="project-links">
+              <a href="https://github.com/xyz-dev" target="_blank" aria-label="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Smart Asset Tracker</h3>
+          <p>
+            Full-stack inventory dashboard with role-based access control, PostgreSQL data models, and automated CSV analytics export.
+          </p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <i class="fa-regular fa-folder project-folder"></i>
+            <div class="project-links">
+              <a href="https://github.com/xyz-dev" target="_blank" aria-label="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Automated Log Monitor</h3>
+          <p>
+            Automated monitoring daemon inspecting server logs for error rate spikes and firing immediate alerts through webhooks.
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Linux CLI</span>
+            <span>Webhooks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <h2 class="section-title">Get In Touch</h2>
+      <p>Have a project in mind, a question, or an opportunity? Reach out directly.</p>
+      <div class="contact-methods">
+        <a href="mailto:xyz.developer@email.com" class="contact-pill">
+          <i class="fa-regular fa-envelope"></i> xyz.developer@email.com
+        </a>
+        <a href="https://linkedin.com/in/xyz-profile" target="_blank" class="contact-pill">
+          <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+        </a>
+        <a href="https://github.com/xyz-dev" target="_blank" class="contact-pill">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 XYZ. Hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
